@@ -1,0 +1,14 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "prueba webpack",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "Webpack --mode development",
+    "dev2": "Webpack --mode development ./foo/src/index.js --output ./foo/main.js",
+    "build": "Webpack --mode production",
+    "build2": "Webpack --mode production ./foo/src/index.js --output ./foo/main.js"
+    },
+  "author": "adri",
+  "license": "ISC"
+}
